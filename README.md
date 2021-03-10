@@ -36,10 +36,10 @@ After the all-in-one PowerShell script has run and created all the required reso
 ## Manual resources
 This Delegated Form uses the following resources in order to run
 
-### Powershell data source 'AD-user-generate-table-wildcard-employeeID'
+### Powershell data source 'AD-user-generate-table-wildcard-update-employeeid'
 This Powershell data source runs an Active Directory query to search for matching AD user accounts. It uses an array of Active Directory OU's specified as HelloID user defined variable named _"ADusersSearchOU"_ to specify the search scope. This data source also returns the employeeID attributes the receive the current value.
 
-### Powershell data source 'AD-user-generate-table-attributes-basic'
+### Powershell data source 'AD-user-generate-table-attributes-basic-update-employeeid'
 This Powershell data source runs an Active Directory query to select a basic list of user attributes of the selected AD user account.  
 
 ### Delegated form task 'AD-user-update-employeeID'
