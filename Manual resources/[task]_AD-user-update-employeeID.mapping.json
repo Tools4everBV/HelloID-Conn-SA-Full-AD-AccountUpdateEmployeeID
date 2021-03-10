@@ -1,0 +1,10 @@
+[
+    {
+        "name":  "employeeID",
+        "value":  "{{form.employeeID}}"
+    },
+    {
+        "name":  "userPrincipalName",
+        "value":  "{{form.gridUsers.UserPrincipalName}}"
+    }
+]
