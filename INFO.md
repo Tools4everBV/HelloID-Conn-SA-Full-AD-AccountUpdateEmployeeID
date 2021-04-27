@@ -1,6 +1,6 @@
 # Account Update EmployeeID
 
-This form updates an account's EmployeeID field. It is particularly useful to correlate manually created accounts with HelloID Provisioning. 
+This form updates an account's EmployeeID field. It is particularly useful to correlate manually created accounts with HelloID Provisioning. It pairs well with https://github.com/Tools4everBV/HelloID-Conn-SA-Full-AD-ReportAccountsEmptyEmployeeID
 
 ## Business Benefits
 
