@@ -44,3 +44,6 @@ This Powershell data source runs an Active Directory query to select a basic lis
 
 ### Delegated form task 'AD-user-update-employeeID'
 This delegated form task will update the account attribute employeeID of the selected AD user account.
+
+# HelloID Docs
+The official HelloID documentation can be found at: https://docs.helloid.com/
