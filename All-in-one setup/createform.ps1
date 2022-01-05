@@ -473,7 +473,11 @@ try {
 }
 
 try {
-    Set-ADUser -Identity $adUSer -employeeID $employeeID
+    If($employeeID.Length -lt 1){
+        Set-ADUser -Identity $adUSer -Clear employeeID
+    } else{
+        Set-ADUser -Identity $adUSer -employeeID $employeeID
+    }
     HID-Write-Status -Message "Finished update attribute [employeeID] of AD user [$userPrincipalName] to [$employeeID]" -Event Success
     HID-Write-Summary -Message "Successfully updated attribute [employeeID] of AD user [$userPrincipalName] to [$employeeID]" -Event Success
 } catch {
